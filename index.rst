@@ -11,7 +11,8 @@ the signal to noise ratio of the object decreases compared to an equivalent stat
    :name: fig-trailing-losses
    :target: ../../_static/trailing_losses.png
 
-   Trailing losses in 0.7" seeing. The blue dotted line (SNR loss)
+   Trailing losses in 0.7" seeing for 30 second exposures.
+   The blue dotted line (SNR loss)
    indicates the losses due to simply spreading the light from a
    moving source over more background pixels. The red line (Detection
    loss) indicates the losses due to detection algorithms assuming a
@@ -24,8 +25,14 @@ the signal to noise ratio of the object decreases compared to an equivalent stat
    :name: fig-trailing-losses-fast
    :target: ../../_static/trailing_losses_fast.png
 
-   Trailing losses in 0.7" seeing, as above, but with a wider range of
+   Trailing losses in 0.7" seeing for 30 second exposures, as above, but with a wider range of
    velocities.
+
+.. figure:: /_static/dmag_trailing_X.png
+   :name: fig-trailing-losses-X
+   :target: ../../_static/dmag_trailing_X.png
+
+   Trailing losses as a function of "X" = velocity(deg/day) * exposure time(s) / seeing(") / 24.0. 
 
 
 .. code-block:: py
